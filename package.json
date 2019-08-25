@@ -1,0 +1,33 @@
+{
+  "name": "unifyre-react-helper",
+  "version": "1.0.0",
+  "description": "React helper for unifyre projects",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferrumnet/unifyre-react-helper.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ferrumnet/unifyre-react-helper/issues"
+  },
+  "homepage": "https://github.com/ferrumnet/unifyre-react-helper#readme",
+  "dependencies": {
+    "react": "@16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "@16.8.0",
+    "tslint": "^5.0.0",
+    "tslint-config-airbnb-base": "^0.3.0",
+    "typescript": "^3.5.3"
+  }
+}
