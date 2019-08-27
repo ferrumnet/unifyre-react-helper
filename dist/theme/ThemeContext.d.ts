@@ -1,5 +1,5 @@
 /// <reference types="react" />
-export interface Theme {
-}
-export declare const ThemeContext: import("react").Context<Theme>;
+import { ThemeConstantProvider } from "./types";
+export declare const defaultDarkThemeConstants: import("./types").ThemeConstants;
+export declare const ThemeContext: import("react").Context<ThemeConstantProvider>;
 //# sourceMappingURL=ThemeContext.d.ts.map
