@@ -1,11 +1,12 @@
 import {createContext} from "react";
-import { ThemeConstantBuilder, ThemeConstantProvider } from "./types";
+import { ConstantBuilder, ThemeConstantProvider, ThemeConstants } from "./types";
 import { Theme } from "./Theme";
 
-export const defaultDarkThemeConstants = ThemeConstantBuilder.builder()
+export const defaultDarkThemeConstants = ConstantBuilder.builder<string|number, ThemeConstants>()
     .set(Theme.Spaces.screenMarginHorizontal, 50)
     .set(Theme.Spaces.screenMarginVertical, 30)
     .set(Theme.Spaces.gap, 60)
+    .set(Theme.Spaces.line, 30)
     .set(Theme.Colors.bkgShade0, '#000000')
     .set(Theme.Colors.bkgShade1, '#111113')
     .set(Theme.Colors.bkgShade2, '#1C1C1E')
@@ -57,5 +58,6 @@ export const defaultDarkThemeConstants = ThemeConstantBuilder.builder()
     .set(Theme.Icon.iconBorderRadius, '$Colors.iconBorderRadius')
     .build();
 
-export const ThemeContext = createContext<ThemeConstantProvider>(new ThemeConstantProvider(defaultDarkThemeConstants));
+export const ThemeContext = createContext<ThemeConstantProvider>(
+    new ThemeConstantProvider('unifyre', defaultDarkThemeConstants));
 

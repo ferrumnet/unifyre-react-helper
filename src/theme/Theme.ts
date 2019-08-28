@@ -1,4 +1,3 @@
-
 const _BUTTON = 'Button.'
 const _COLOR = 'Color.'
 const _SPACES = 'Spaces.'
@@ -15,6 +14,7 @@ export class Theme {
         screenMarginHorizontal: _SPACES + 'screenMarginHorizontal',
         screenMarginVertical: _SPACES + 'screenMarginVertical',
         gap: _SPACES + 'gap',
+        line: _SPACES + 'line',
     }
     static Colors = {
         bkgShade0: _COLOR + 'bkgShade0',

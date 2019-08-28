@@ -2,8 +2,8 @@
   "name": "unifyre-react-helper",
   "version": "1.0.0",
   "description": "React helper for unifyre projects",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "directories": {
     "example": "examples"
   },
@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/ferrumnet/unifyre-react-helper#readme",
   "dependencies": {
+  },
+  "peerDependencies": {
     "react": "@16.8.0"
   },
   "devDependencies": {
