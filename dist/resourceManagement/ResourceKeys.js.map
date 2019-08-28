@@ -1,1 +1,1 @@
-{"version":3,"file":"ResourceKeys.js","sourceRoot":"","sources":["../../src/resourceManagement/ResourceKeys.ts"],"names":[],"mappings":";;;IACA,MAAM,KAAK,GAAG,OAAO,CAAC;IACtB,MAAa,YAAY;;IACd,iBAAI,GAAG;QACV,SAAS,EAAE,KAAK,GAAG,WAAW;QAC9B,QAAQ,EAAE,KAAK,GAAG,UAAU;KAC/B,CAAA;IAJL,oCAKC"}
+{"version":3,"file":"ResourceKeys.js","sourceRoot":"","sources":["../../src/resourceManagement/ResourceKeys.ts"],"names":[],"mappings":";;AACA,MAAM,KAAK,GAAG,OAAO,CAAC;AACtB,MAAa,YAAY;;AACd,iBAAI,GAAG;IACV,SAAS,EAAE,KAAK,GAAG,WAAW;IAC9B,QAAQ,EAAE,KAAK,GAAG,UAAU;CAC/B,CAAA;AAJL,oCAKC"}
