@@ -1,10 +1,13 @@
 /// <reference types="react" />
 import { ConstantProvider, BaseConstValue } from "../theme/types";
-export declare type ResourceConstant = {
+export declare type ResourceConstantValue = {
     type: 'string' | 'node';
     value: any;
 };
-export declare class ResourceConstantProvider extends ConstantProvider<ResourceConstant, BaseConstValue<ResourceConstant>> {
+export declare type ResourceConstant = {
+    [k: string]: ResourceConstantValue;
+};
+export declare class ResourceConstantProvider extends ConstantProvider<ResourceConstantValue, BaseConstValue<ResourceConstantValue>> {
 }
 /**
  * Use ConstantBuilder.create<ResourceConstant, BaseConstValue<ResourceConstant>()

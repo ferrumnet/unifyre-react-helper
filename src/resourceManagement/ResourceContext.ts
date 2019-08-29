@@ -1,9 +1,12 @@
 import {createContext} from "react";
 import {ConstantProvider, BaseConstValue} from "../theme/types";
 
-export type ResourceConstant = { type: 'string' | 'node', value: any };
+export type ResourceConstantValue = { type: 'string' | 'node', value: any };
 
-export class ResourceConstantProvider extends ConstantProvider<ResourceConstant, BaseConstValue<ResourceConstant>> {}
+export type ResourceConstant = {[ k: string ]: ResourceConstantValue}
+
+export class ResourceConstantProvider extends ConstantProvider<
+    ResourceConstantValue, BaseConstValue<ResourceConstantValue>> {}
 
 
 /**

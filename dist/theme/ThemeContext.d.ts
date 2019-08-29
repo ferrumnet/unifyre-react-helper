@@ -1,5 +1,5 @@
 /// <reference types="react" />
-import { ThemeConstantProvider, ThemeConstants } from "./types";
-export declare const defaultDarkThemeConstants: ThemeConstants;
+import { ConstantBuilder, ThemeConstantProvider, ThemeConstants } from "./types";
+export declare const defaultDarkThemeConstantsBuilder: ConstantBuilder<string | number, ThemeConstants>;
 export declare const ThemeContext: import("react").Context<ThemeConstantProvider>;
 //# sourceMappingURL=ThemeContext.d.ts.map
