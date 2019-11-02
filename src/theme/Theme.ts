@@ -8,6 +8,8 @@ const _CHART = 'Chart.'
 const _INPUT = 'Input.'
 const _LIST = 'List.'
 const _ICON = 'Icon.'
+const _SWITCH = 'Switch.'
+const _PIN = 'Pin.'
 
 export class Theme {
     static Spaces = {
@@ -77,10 +79,22 @@ export class Theme {
     static List = {
         listItemPaddingTop: _LIST + 'listItemPaddingTop',
         listItemPaddingButtom: _LIST + 'listItemPaddingButtom',
+        listItemBorderColor: _LIST + 'listItemBorderColor',
     }
     static Icon = {
         backgroundColor: _ICON + 'backgroundColor',
         iconColor: _ICON + 'iconColor',
         iconBorderRadius: _ICON + 'iconBorderRadius',
+    }
+    static Switch = {
+        thumbColor: _SWITCH + 'thumbColor',
+        backgroundColorFalse: _SWITCH + 'backgroundColorFalse',
+        backgroundColorTrue: _SWITCH + 'backgroundColorTrue',
+    }
+    static Pin = {
+        keyboardBackground: _PIN + 'keyboardBackground',
+        keyboardTextColor: _PIN + 'keyboardTextColor',
+        bubbleActive: _PIN + 'bubbleActive',
+        bubbleInActive: _PIN + 'bubbleInActive',
     }
 }
