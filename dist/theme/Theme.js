@@ -10,6 +10,8 @@ const _CHART = 'Chart.';
 const _INPUT = 'Input.';
 const _LIST = 'List.';
 const _ICON = 'Icon.';
+const _SWITCH = 'Switch.';
+const _PIN = 'Pin.';
 class Theme {
 }
 Theme.Spaces = {
@@ -79,11 +81,23 @@ Theme.Input = {
 Theme.List = {
     listItemPaddingTop: _LIST + 'listItemPaddingTop',
     listItemPaddingButtom: _LIST + 'listItemPaddingButtom',
+    listItemBorderColor: _LIST + 'listItemBorderColor',
 };
 Theme.Icon = {
     backgroundColor: _ICON + 'backgroundColor',
     iconColor: _ICON + 'iconColor',
     iconBorderRadius: _ICON + 'iconBorderRadius',
+};
+Theme.Switch = {
+    thumbColor: _SWITCH + 'thumbColor',
+    backgroundColorFalse: _SWITCH + 'backgroundColorFalse',
+    backgroundColorTrue: _SWITCH + 'backgroundColorTrue',
+};
+Theme.Pin = {
+    keyboardBackground: _PIN + 'keyboardBackground',
+    keyboardTextColor: _PIN + 'keyboardTextColor',
+    bubbleActive: _PIN + 'bubbleActive',
+    bubbleInActive: _PIN + 'bubbleInActive',
 };
 exports.Theme = Theme;
 //# sourceMappingURL=Theme.js.map

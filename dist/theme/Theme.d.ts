@@ -66,11 +66,23 @@ export declare class Theme {
     static List: {
         listItemPaddingTop: string;
         listItemPaddingButtom: string;
+        listItemBorderColor: string;
     };
     static Icon: {
         backgroundColor: string;
         iconColor: string;
         iconBorderRadius: string;
+    };
+    static Switch: {
+        thumbColor: string;
+        backgroundColorFalse: string;
+        backgroundColorTrue: string;
+    };
+    static Pin: {
+        keyboardBackground: string;
+        keyboardTextColor: string;
+        bubbleActive: string;
+        bubbleInActive: string;
     };
 }
 //# sourceMappingURL=Theme.d.ts.map
