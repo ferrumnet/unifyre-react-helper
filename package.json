@@ -24,7 +24,7 @@
   "dependencies": {
   },
   "peerDependencies": {
-    "react": "@16.8.3"
+    "react": "@16.9.0"
   },
   "devDependencies": {
     "@types/react": "@16.8.3",
