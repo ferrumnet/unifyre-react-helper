@@ -65,7 +65,8 @@ export const defaultDarkThemeConstantsBuilder = ConstantBuilder.builder<string|n
     .set(Theme.Pin.keyboardTextColor, '#FFFFFF')
     .set(Theme.Pin.bubbleActive, '#FFFFFF')
     .set(Theme.Pin.bubbleInActive, '#1C1C1E')
-    .set(Theme.Icon.iconBorderRadius, 5 * _sr);
+    .set(Theme.Icon.iconBorderRadius, 5 * _sr)
+    .set(Theme.Coin.iconBackground, '$Color.bkgShade3');
 
 export const defaultGreenThemeConstantsBuilder = ConstantBuilder.builder<string|number, ThemeConstants>()
     .set(Theme.Spaces.screenMarginHorizontal, 50 * _sr)
@@ -128,7 +129,8 @@ export const defaultGreenThemeConstantsBuilder = ConstantBuilder.builder<string|
     .set(Theme.Pin.keyboardTextColor, '#FAFAFA')
     .set(Theme.Pin.bubbleActive, '#FFFFFF')
     .set(Theme.Pin.bubbleInActive, '#26C97A')
-    .set(Theme.Icon.iconBorderRadius, 5 * _sr);
+    .set(Theme.Icon.iconBorderRadius, 5 * _sr)
+    .set(Theme.Coin.iconBackground, '$Color.textColor');
 
 export const ThemeContext = createContext<ThemeConstantProvider>(
     new ThemeConstantProvider('unifyre', defaultGreenThemeConstantsBuilder.build()));

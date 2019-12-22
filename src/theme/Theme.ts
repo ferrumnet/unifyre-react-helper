@@ -10,6 +10,7 @@ const _LIST = 'List.'
 const _ICON = 'Icon.'
 const _SWITCH = 'Switch.'
 const _PIN = 'Pin.'
+const _COIN = 'Coin.'
 
 export class Theme {
     static Spaces = {
@@ -96,5 +97,8 @@ export class Theme {
         keyboardTextColor: _PIN + 'keyboardTextColor',
         bubbleActive: _PIN + 'bubbleActive',
         bubbleInActive: _PIN + 'bubbleInActive',
+    }
+    static Coin = {
+        iconBackground: _COIN + 'iconBackground',
     }
 }
