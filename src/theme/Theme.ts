@@ -31,6 +31,7 @@ export class Theme {
         bkgShade8: _COLOR + 'bkgShade8',
         textColor: _COLOR + 'textColor',
         highlight: _COLOR + 'highlight',
+        splash: _COLOR + 'splash',
     }
     static Button = {
         btnPrimary: _BUTTON + 'btnPrimary',

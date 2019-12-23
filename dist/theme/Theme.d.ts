@@ -17,6 +17,7 @@ export declare class Theme {
         bkgShade8: string;
         textColor: string;
         highlight: string;
+        splash: string;
     };
     static Button: {
         btnPrimary: string;
@@ -83,6 +84,9 @@ export declare class Theme {
         keyboardTextColor: string;
         bubbleActive: string;
         bubbleInActive: string;
+    };
+    static Coin: {
+        iconBackground: string;
     };
 }
 //# sourceMappingURL=Theme.d.ts.map

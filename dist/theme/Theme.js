@@ -12,6 +12,7 @@ const _LIST = 'List.';
 const _ICON = 'Icon.';
 const _SWITCH = 'Switch.';
 const _PIN = 'Pin.';
+const _COIN = 'Coin.';
 class Theme {
 }
 Theme.Spaces = {
@@ -32,6 +33,7 @@ Theme.Colors = {
     bkgShade8: _COLOR + 'bkgShade8',
     textColor: _COLOR + 'textColor',
     highlight: _COLOR + 'highlight',
+    splash: _COLOR + 'splash',
 };
 Theme.Button = {
     btnPrimary: _BUTTON + 'btnPrimary',
@@ -98,6 +100,9 @@ Theme.Pin = {
     keyboardTextColor: _PIN + 'keyboardTextColor',
     bubbleActive: _PIN + 'bubbleActive',
     bubbleInActive: _PIN + 'bubbleInActive',
+};
+Theme.Coin = {
+    iconBackground: _COIN + 'iconBackground',
 };
 exports.Theme = Theme;
 //# sourceMappingURL=Theme.js.map

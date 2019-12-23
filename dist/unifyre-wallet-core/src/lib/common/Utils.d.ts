@@ -13,6 +13,7 @@ export declare const transactionTitleMap: {
     'pendingRequest': string;
     'request': string;
 };
+
 export declare class Utils {
     static minimumDepositAmountInt: {
         'BTC': number;
@@ -68,4 +69,5 @@ export declare class Utils {
     static translateCurrency(potentialCurrency: string): Currency;
     static getLocalAccountGroup(data: AppStateData): import("../redux/AppState").AppLocalAccountGroup | undefined;
 }
+
 //# sourceMappingURL=Utils.d.ts.map
