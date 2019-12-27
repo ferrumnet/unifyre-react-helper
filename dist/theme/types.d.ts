@@ -21,6 +21,8 @@ export declare class ConstantProvider<TConstValueType, TConstType extends {
     constructor(name: string, defaultMap: TConstType);
     register(map: TConstType): void;
     get(key: string): TConstValueType;
+    has(key: string): boolean;
+    private getOptional;
 }
 export declare class ThemeConstantProvider extends ConstantProvider<number | string, ThemeConstants> {
 }

@@ -37,11 +37,22 @@ export class ConstantProvider<TConstValueType, TConstType extends { [k: string]:
     }
 
     get(key: string): TConstValueType {
+        const res = this.getOptional(key);
+        if (!res) {
+            throw new ThemeError(`ThemeConstantProvider.get: Key "${key}" has no registered constant.`);
+        }
+        return res;
+    }
+
+    has(key: string): boolean {
+        return !!this.getOptional(key);
+    }
+
+    private getOptional(key: string): TConstValueType|undefined {
         for(let i = this.constants.length - 1; i>=0; i--) {
             const res = this.constants[i][key];
             if (res) { return res; }
         }
-        throw new ThemeError(`ThemeConstantProvider.get: Key "${key}" has no registered constant.`);
     }
 }
 

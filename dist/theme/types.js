@@ -32,13 +32,22 @@ class ConstantProvider {
         this.constants.push(map);
     }
     get(key) {
+        const res = this.getOptional(key);
+        if (!res) {
+            throw new ThemeError(`ThemeConstantProvider.get: Key "${key}" has no registered constant.`);
+        }
+        return res;
+    }
+    has(key) {
+        return !!this.getOptional(key);
+    }
+    getOptional(key) {
         for (let i = this.constants.length - 1; i >= 0; i--) {
             const res = this.constants[i][key];
             if (res) {
                 return res;
             }
         }
-        throw new ThemeError(`ThemeConstantProvider.get: Key "${key}" has no registered constant.`);
     }
 }
 exports.ConstantProvider = ConstantProvider;
