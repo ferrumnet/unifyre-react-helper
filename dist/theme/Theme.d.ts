@@ -36,6 +36,7 @@ export declare class Theme {
         textColor: string;
         inversTextColor: string;
         subTextColor: string;
+        disabledColor: string;
         linkColor: string;
         infoColor: string;
         h1Size: string;

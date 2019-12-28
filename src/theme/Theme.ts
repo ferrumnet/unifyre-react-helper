@@ -50,6 +50,7 @@ export class Theme {
         textColor: _TEXT + 'textColor',
         inversTextColor: _TEXT + 'inversTextColor',
         subTextColor: _TEXT + 'subTextColor',
+        disabledColor: _TEXT + 'disabledColor',
         linkColor: _TEXT + 'linkColor',
         infoColor: _TEXT + 'infoColor',
         h1Size: _TEXT + 'h1Size',
