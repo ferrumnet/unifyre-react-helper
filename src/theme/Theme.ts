@@ -69,6 +69,8 @@ export class Theme {
     static Chart = {
         redGradiantStart: _CHART + 'redGradiantStart',
         redGradiantEnd: _CHART + 'redGradiantEnd',
+        greenGradiantStart: _CHART + 'greenGradiantStart',
+        greenGradiantEnd: _CHART + 'greenGradiantStart',
     }
     static Input = {
         inputBackground: _INPUT + 'inputBackground',

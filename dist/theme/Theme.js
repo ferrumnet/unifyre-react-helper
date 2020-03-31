@@ -71,6 +71,8 @@ Theme.Page = {
 Theme.Chart = {
     redGradiantStart: _CHART + 'redGradiantStart',
     redGradiantEnd: _CHART + 'redGradiantEnd',
+    greenGradiantStart: _CHART + 'greenGradiantStart',
+    greenGradiantEnd: _CHART + 'greenGradiantStart',
 };
 Theme.Input = {
     inputBackground: _INPUT + 'inputBackground',

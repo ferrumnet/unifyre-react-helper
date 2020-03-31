@@ -55,6 +55,8 @@ export declare class Theme {
     static Chart: {
         redGradiantStart: string;
         redGradiantEnd: string;
+        greenGradiantStart: string;
+        greenGradiantEnd: string;
     };
     static Input: {
         inputBackground: string;
