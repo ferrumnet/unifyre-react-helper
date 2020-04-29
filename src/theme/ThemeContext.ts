@@ -99,7 +99,7 @@ export const defaultGreenThemeConstantsBuilder = ConstantBuilder.builder<string|
     .set(Theme.Button.btnPrimaryTextColor, '$Color.bkgShade1')
     .set(Theme.Button.inverseBtnPrimaryTextColor, '#AAAAAA')
     .set(Theme.Button.btnHighlightTextColor, '#FFFFFF')
-    .set(Theme.Button.btnBorderRadius, 10 * _sr)
+    .set(Theme.Button.btnBorderRadius, 30 * _sr)
     .set(Theme.Button.btnPadding, 55 * _sr)
     .set(Theme.Font.main, 'SF Pro Text')
     .set(Theme.Text.textColor, '$Color.textColor')

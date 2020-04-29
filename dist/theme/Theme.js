@@ -15,6 +15,7 @@ const _PIN = 'Pin.';
 const _COIN = 'Coin.';
 class Theme {
 }
+exports.Theme = Theme;
 Theme.Spaces = {
     screenMarginHorizontal: _SPACES + 'screenMarginHorizontal',
     screenMarginVertical: _SPACES + 'screenMarginVertical',
@@ -107,5 +108,4 @@ Theme.Pin = {
 Theme.Coin = {
     iconBackground: _COIN + 'iconBackground',
 };
-exports.Theme = Theme;
 //# sourceMappingURL=Theme.js.map
