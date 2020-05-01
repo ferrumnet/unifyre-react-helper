@@ -11,10 +11,6 @@ export declare class Theme {
         bkgShade2: string;
         bkgShade3: string;
         bkgShade4: string;
-        bkgShade5: string;
-        bkgShade6: string;
-        bkgShade7: string;
-        bkgShade8: string;
         textColor: string;
         highlight: string;
         splash: string;
