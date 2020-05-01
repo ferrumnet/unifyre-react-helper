@@ -12,7 +12,7 @@ export const defaultDarkThemeConstantsBuilder = ConstantBuilder.builder<string|n
     .set(Theme.Colors.bkgShade0, '#000000')
     .set(Theme.Colors.bkgShade1, '#111113')
     .set(Theme.Colors.bkgShade2, '#0C1C1E')
-    .set(Theme.Colors.bkgShade3, '#c3c3c3')
+    .set(Theme.Colors.bkgShade3, '#39393E')
     .set(Theme.Colors.bkgShade4, '#48484A')
     .set(Theme.Colors.textColor, '#FFFFFF')
     .set(Theme.Colors.highlight, '#FF3B2F')
@@ -23,7 +23,7 @@ export const defaultDarkThemeConstantsBuilder = ConstantBuilder.builder<string|n
     .set(Theme.Button.btnPrimaryTextColor, '$Color.bkgShade1')
     .set(Theme.Button.inverseBtnPrimaryTextColor, '#EEEEEE')
     .set(Theme.Button.btnHighlightTextColor, '#FFFFFF')
-    .set(Theme.Button.btnBorderRadius, 10 * _sr)
+    .set(Theme.Button.btnBorderRadius, 40 * _sr)
     .set(Theme.Button.btnPadding, 55 * _sr)
     .set(Theme.Font.main, 'SF Pro Text')
     .set(Theme.Text.textColor, '$Color.textColor')
@@ -56,7 +56,7 @@ export const defaultDarkThemeConstantsBuilder = ConstantBuilder.builder<string|n
     .set(Theme.List.listItemPaddingTop, 30 * _sr)
     .set(Theme.List.listItemPaddingButtom, 30 * _sr)
     .set(Theme.List.listItemBorderColor, '#D1D1D6')
-    .set(Theme.Icon.iconColor, '$Color.bkgShade2')
+    .set(Theme.Icon.iconColor, '$Color.bkgShade4')
     .set(Theme.Icon.backgroundColor, '#1C1C1E')
     .set(Theme.Switch.thumbColor, '#D1D1D6')
     .set(Theme.Switch.backgroundColorFalse, '#111113')
@@ -66,7 +66,7 @@ export const defaultDarkThemeConstantsBuilder = ConstantBuilder.builder<string|n
     .set(Theme.Pin.bubbleActive, '#FFFFFF')
     .set(Theme.Pin.bubbleInActive, '#1C1C1E')
     .set(Theme.Icon.iconBorderRadius, 5 * _sr)
-    .set(Theme.Coin.iconBackground, '$Button.btnPrimary');
+    .set(Theme.Coin.iconBackground, '$Color.bkgShade2');
 
 export const defaultGreenThemeConstantsBuilder = ConstantBuilder.builder<string|number, ThemeConstants>()
     .set(Theme.Spaces.screenMarginHorizontal, 50 * _sr)
@@ -130,7 +130,7 @@ export const defaultGreenThemeConstantsBuilder = ConstantBuilder.builder<string|
     .set(Theme.Pin.bubbleActive, '#FFFFFF')
     .set(Theme.Pin.bubbleInActive, '#26C97A')
     .set(Theme.Icon.iconBorderRadius, 5 * _sr)
-    .set(Theme.Coin.iconBackground, '$Color.textColor');
+    .set(Theme.Coin.iconBackground, '$Color.bkgShade3');
 
 export const ThemeContext = createContext<ThemeConstantProvider>(
     new ThemeConstantProvider('unifyre', defaultGreenThemeConstantsBuilder.build()));
