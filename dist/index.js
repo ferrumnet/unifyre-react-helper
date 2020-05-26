@@ -8,4 +8,6 @@ __export(require("./theme/Theme"));
 __export(require("./theme/ThemeContext"));
 __export(require("./resourceManagement/ResourceContext"));
 __export(require("./resourceManagement/ResourceKeys"));
+__export(require("./internationalization/IntlManager"));
+__export(require("./internationalization/LocaleManager"));
 //# sourceMappingURL=index.js.map
