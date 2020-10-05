@@ -28,6 +28,8 @@ export class Theme {
         textColor: _COLOR + 'textColor',
         highlight: _COLOR + 'highlight',
         splash: _COLOR + 'splash',
+        headerTextColor: _COLOR + 'headerTextColor',
+        themeNavBkg: _COLOR + 'themeNavBkg',
     }
     static Button = {
         btnPrimary: _BUTTON + 'btnPrimary',
@@ -100,5 +102,8 @@ export class Theme {
     }
     static Coin = {
         iconBackground: _COIN + 'iconBackground',
+    }
+    static Logo = {
+        logo: 'ICON.MAIN_LOGO'
     }
 }

@@ -31,6 +31,8 @@ Theme.Colors = {
     textColor: _COLOR + 'textColor',
     highlight: _COLOR + 'highlight',
     splash: _COLOR + 'splash',
+    headerTextColor: _COLOR + 'headerTextColor',
+    themeNavBkg: _COLOR + 'themeNavBkg',
 };
 Theme.Button = {
     btnPrimary: _BUTTON + 'btnPrimary',
@@ -103,5 +105,8 @@ Theme.Pin = {
 };
 Theme.Coin = {
     iconBackground: _COIN + 'iconBackground',
+};
+Theme.Logo = {
+    logo: 'ICON.MAIN_LOGO'
 };
 //# sourceMappingURL=Theme.js.map

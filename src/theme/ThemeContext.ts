@@ -132,5 +132,31 @@ export const defaultGreenThemeConstantsBuilder = ConstantBuilder.builder<string|
     .set(Theme.Icon.iconBorderRadius, 5 * _sr)
     .set(Theme.Coin.iconBackground, '$Color.bkgShade3');
 
+export const WebdefaultDarkThemeConstantsBuilder = (theme:any) => {
+    return ConstantBuilder.builder<string|number, ThemeConstants>()
+    .set('bkgShade0', theme.palette.white)
+    .set('bkgShade2', '#0C1C1E')
+    .set('bkgShade5', '#FFFFFF')
+    .set(Theme.Logo.logo, theme.palette.logoUrl )
+    .set(Theme.Colors.themeNavBkg, theme.palette.themeNavLight)
+    .set('headerTextColor', 'orange')
+    .set(Theme.Colors.headerTextColor, 'orange')
+    .set(Theme.Colors.textColor, '#111113')
+    .set(Theme.Colors.highlight, '#DD1155')
+}
+
+export const WebdefaultLightThemeConstantsBuilder = (theme:any) => {
+    return ConstantBuilder.builder<string|number, ThemeConstants>()
+    .set(Theme.Spaces.screenMarginHorizontal, 50 * _sr)
+    .set(Theme.Spaces.screenMarginVertical, 30 * _sr)
+    .set(Theme.Spaces.gap, 60 * _sr)
+    .set(Theme.Spaces.line, 30 * _sr)
+    .set(Theme.Colors.headerTextColor, 'orange')
+    .set(Theme.Logo.logo, theme.palette.logoUrl )
+    .set(Theme.Colors.themeNavBkg, theme.palette.themeNavLight)
+    .set(Theme.Colors.textColor, '#111113')
+    .set(Theme.Colors.highlight, '#DD1155')
+}
+
 export const ThemeContext = createContext<ThemeConstantProvider>(
     new ThemeConstantProvider('unifyre', defaultGreenThemeConstantsBuilder.build()));
