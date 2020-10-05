@@ -13,16 +13,16 @@ const _ICON = 'Icon.';
 const _SWITCH = 'Switch.';
 const _PIN = 'Pin.';
 const _COIN = 'Coin.';
-class Theme {
+class WebTheme {
 }
-exports.Theme = Theme;
-Theme.Spaces = {
+exports.WebTheme = WebTheme;
+WebTheme.Spaces = {
     screenMarginHorizontal: _SPACES + 'screenMarginHorizontal',
     screenMarginVertical: _SPACES + 'screenMarginVertical',
     gap: _SPACES + 'gap',
     line: _SPACES + 'line',
 };
-Theme.Colors = {
+WebTheme.Colors = {
     bkgShade0: _COLOR + 'bkgShade0',
     bkgShade1: _COLOR + 'bkgShade1',
     bkgShade2: _COLOR + 'bkgShade2',
@@ -31,10 +31,8 @@ Theme.Colors = {
     textColor: _COLOR + 'textColor',
     highlight: _COLOR + 'highlight',
     splash: _COLOR + 'splash',
-    headerTextColor: _COLOR + 'headerTextColor',
-    themeNavBkg: _COLOR + 'themeNavBkg',
 };
-Theme.Button = {
+WebTheme.Button = {
     btnPrimary: _BUTTON + 'btnPrimary',
     inverseBtnPrimary: _BUTTON + 'inverseBtnPrimary',
     btnHighlight: _BUTTON + 'btnHighlight',
@@ -44,10 +42,10 @@ Theme.Button = {
     btnBorderRadius: _BUTTON + 'btnBorderRadius',
     btnPadding: _BUTTON + 'btnPadding',
 };
-Theme.Font = {
+WebTheme.Font = {
     main: _FONT + 'main',
 };
-Theme.Text = {
+WebTheme.Text = {
     textColor: _TEXT + 'textColor',
     inversTextColor: _TEXT + 'inversTextColor',
     subTextColor: _TEXT + 'subTextColor',
@@ -62,18 +60,18 @@ Theme.Text = {
     numberDownColor: _TEXT + 'numberDown',
     numberUpColor: _TEXT + 'numberUp',
 };
-Theme.Page = {
+WebTheme.Page = {
     titleColor: _PAGE + 'titleColor',
     titleSize: _PAGE + 'titleSize',
     titleIconColor: _PAGE + 'titleIconColor',
 };
-Theme.Chart = {
+WebTheme.Chart = {
     redGradiantStart: _CHART + 'redGradiantStart',
     redGradiantEnd: _CHART + 'redGradiantEnd',
     greenGradiantStart: _CHART + 'greenGradiantStart',
     greenGradiantEnd: _CHART + 'greenGradiantStart',
 };
-Theme.Input = {
+WebTheme.Input = {
     inputBackground: _INPUT + 'inputBackground',
     inputTextColor: _INPUT + 'inputTextColor',
     inputTextSize: _INPUT + 'inputTextSize',
@@ -82,31 +80,28 @@ Theme.Input = {
     inputLargeLabelSize: _INPUT + 'inputLargeLabelSize',
     inputLargeLabelColor: _INPUT + 'inputLargeLabelColor',
 };
-Theme.List = {
+WebTheme.List = {
     listItemPaddingTop: _LIST + 'listItemPaddingTop',
     listItemPaddingButtom: _LIST + 'listItemPaddingButtom',
     listItemBorderColor: _LIST + 'listItemBorderColor',
 };
-Theme.Icon = {
+WebTheme.Icon = {
     backgroundColor: _ICON + 'backgroundColor',
     iconColor: _ICON + 'iconColor',
     iconBorderRadius: _ICON + 'iconBorderRadius',
 };
-Theme.Switch = {
+WebTheme.Switch = {
     thumbColor: _SWITCH + 'thumbColor',
     backgroundColorFalse: _SWITCH + 'backgroundColorFalse',
     backgroundColorTrue: _SWITCH + 'backgroundColorTrue',
 };
-Theme.Pin = {
+WebTheme.Pin = {
     keyboardBackground: _PIN + 'keyboardBackground',
     keyboardTextColor: _PIN + 'keyboardTextColor',
     bubbleActive: _PIN + 'bubbleActive',
     bubbleInActive: _PIN + 'bubbleInActive',
 };
-Theme.Coin = {
+WebTheme.Coin = {
     iconBackground: _COIN + 'iconBackground',
 };
-Theme.Logo = {
-    logo: 'ICON.MAIN_LOGO'
-};
-//# sourceMappingURL=Theme.js.map
+//# sourceMappingURL=WebTheme.js.map

@@ -130,5 +130,29 @@ exports.defaultGreenThemeConstantsBuilder = types_1.ConstantBuilder.builder()
     .set(Theme_1.Theme.Pin.bubbleInActive, '#26C97A')
     .set(Theme_1.Theme.Icon.iconBorderRadius, 5 * _sr)
     .set(Theme_1.Theme.Coin.iconBackground, '$Color.bkgShade3');
+exports.WebdefaultDarkThemeConstantsBuilder = (theme) => {
+    return types_1.ConstantBuilder.builder()
+        .set('bkgShade0', theme.palette.white)
+        .set('bkgShade2', '#0C1C1E')
+        .set('bkgShade5', '#FFFFFF')
+        .set(Theme_1.Theme.Logo.logo, theme.palette.logoUrl)
+        .set(Theme_1.Theme.Colors.themeNavBkg, theme.palette.themeNavLight)
+        .set('headerTextColor', 'orange')
+        .set(Theme_1.Theme.Colors.headerTextColor, 'orange')
+        .set(Theme_1.Theme.Colors.textColor, '#111113')
+        .set(Theme_1.Theme.Colors.highlight, '#DD1155');
+};
+exports.WebdefaultLightThemeConstantsBuilder = (theme) => {
+    return types_1.ConstantBuilder.builder()
+        .set(Theme_1.Theme.Spaces.screenMarginHorizontal, 50 * _sr)
+        .set(Theme_1.Theme.Spaces.screenMarginVertical, 30 * _sr)
+        .set(Theme_1.Theme.Spaces.gap, 60 * _sr)
+        .set(Theme_1.Theme.Spaces.line, 30 * _sr)
+        .set(Theme_1.Theme.Colors.headerTextColor, 'orange')
+        .set(Theme_1.Theme.Logo.logo, theme.palette.logoUrl)
+        .set(Theme_1.Theme.Colors.themeNavBkg, theme.palette.themeNavLight)
+        .set(Theme_1.Theme.Colors.textColor, '#111113')
+        .set(Theme_1.Theme.Colors.highlight, '#DD1155');
+};
 exports.ThemeContext = react_1.createContext(new types_1.ThemeConstantProvider('unifyre', exports.defaultGreenThemeConstantsBuilder.build()));
 //# sourceMappingURL=ThemeContext.js.map

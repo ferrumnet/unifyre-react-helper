@@ -1,4 +1,4 @@
-export declare class Theme {
+export declare class WebTheme {
     static Spaces: {
         screenMarginHorizontal: string;
         screenMarginVertical: string;
@@ -14,8 +14,6 @@ export declare class Theme {
         textColor: string;
         highlight: string;
         splash: string;
-        headerTextColor: string;
-        themeNavBkg: string;
     };
     static Button: {
         btnPrimary: string;
@@ -89,8 +87,5 @@ export declare class Theme {
     static Coin: {
         iconBackground: string;
     };
-    static Logo: {
-        logo: string;
-    };
 }
-//# sourceMappingURL=Theme.d.ts.map
+//# sourceMappingURL=WebTheme.d.ts.map
