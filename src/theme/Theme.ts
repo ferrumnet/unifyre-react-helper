@@ -104,6 +104,7 @@ export class Theme {
         iconBackground: _COIN + 'iconBackground',
     }
     static Logo = {
-        logo: 'ICON.MAIN_LOGO'
+        logo: 'Logo.mainLogo',
+        logoHeight: 'Logo.mainLogoHeight',
     }
 }
