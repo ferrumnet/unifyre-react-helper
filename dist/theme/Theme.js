@@ -107,6 +107,7 @@ Theme.Coin = {
     iconBackground: _COIN + 'iconBackground',
 };
 Theme.Logo = {
-    logo: 'ICON.MAIN_LOGO'
+    logo: 'Logo.mainLogo',
+    logoHeight: 'Logo.mainLogoHeight',
 };
 //# sourceMappingURL=Theme.js.map

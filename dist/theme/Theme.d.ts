@@ -91,6 +91,7 @@ export declare class Theme {
     };
     static Logo: {
         logo: string;
+        logoHeight: string;
     };
 }
 //# sourceMappingURL=Theme.d.ts.map
