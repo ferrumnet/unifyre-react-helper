@@ -1,1 +1,0 @@
-{"version":3,"file":"AppEnv.d.ts","sourceRoot":"","sources":["../../../../../../unifyre-wallet-core/src/lib/common/AppEnv.ts"],"names":[],"mappings":"AACA,qBAAa,MAAM;IACf,MAAM,CAAC,SAAS,EAAE,OAAO,CAAS;IAClC,MAAM,CAAC,MAAM,EAAE,OAAO,CAAQ;IAC9B,MAAM,CAAC,YAAY,IAAI,OAAO;IAK9B,MAAM,CAAC,QAAQ;IAIf,MAAM,CAAC,SAAS;IAIhB,MAAM,CAAC,KAAK;IAIZ,MAAM,CAAC,MAAM,CAAC,KAAK,EAAE,OAAO;CAI/B"}

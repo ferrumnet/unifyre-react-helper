@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.IntlManager = exports.intl = void 0;
 // @ts-ignore
 const bundle_1 = require("@fluent/bundle");
 function intl(k, par) {

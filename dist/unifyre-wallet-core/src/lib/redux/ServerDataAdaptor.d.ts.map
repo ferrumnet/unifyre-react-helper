@@ -1,1 +1,0 @@
-{"version":3,"file":"ServerDataAdaptor.d.ts","sourceRoot":"","sources":["../../../../../../unifyre-wallet-core/src/lib/redux/ServerDataAdaptor.ts"],"names":[],"mappings":"AAAA,OAAO,EAAoC,UAAU,EAAE,aAAa,EAAC,MAAM,YAAY,CAAC;AAGxF,qBAAa,iBAAiB;IAC1B,MAAM,CAAC,eAAe,CAAC,GAAG,EAAE,aAAa,GAAG,UAAU;CAiBzD"}
