@@ -4,5 +4,6 @@ export declare const defaultDarkThemeConstantsBuilder: ConstantBuilder<string | 
 export declare const defaultGreenThemeConstantsBuilder: ConstantBuilder<string | number, ThemeConstants>;
 export declare const WebdefaultDarkThemeConstantsBuilder: (theme: any) => ConstantBuilder<string | number, ThemeConstants>;
 export declare const WebdefaultLightThemeConstantsBuilder: (theme: any) => ConstantBuilder<string | number, ThemeConstants>;
+export declare const defaultFerrumThemeConstantsBuilder: ConstantBuilder<string | number, ThemeConstants>;
 export declare const ThemeContext: import("react").Context<ThemeConstantProvider>;
 //# sourceMappingURL=ThemeContext.d.ts.map

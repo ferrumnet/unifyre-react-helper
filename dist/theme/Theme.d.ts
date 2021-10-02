@@ -16,6 +16,16 @@ export declare class Theme {
         splash: string;
         headerTextColor: string;
         themeNavBkg: string;
+        dark: string;
+        darkLight: string;
+        greyDark: string;
+        greyMedium: string;
+        greyLight: string;
+        gold: string;
+        green: string;
+        red: string;
+        off: string;
+        white: string;
     };
     static Button: {
         btnPrimary: string;
@@ -37,13 +47,16 @@ export declare class Theme {
         disabledColor: string;
         linkColor: string;
         infoColor: string;
-        h1Size: string;
-        h2Size: string;
         h3Size: string;
         h4Size: string;
         pSize: string;
         numberDownColor: string;
         numberUpColor: string;
+        h1Size: string;
+        h2Size: string;
+        labelSize: string;
+        smallLabel: string;
+        tinyLabel: string;
     };
     static Page: {
         titleColor: string;

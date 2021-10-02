@@ -30,6 +30,17 @@ export class Theme {
         splash: _COLOR + 'splash',
         headerTextColor: _COLOR + 'headerTextColor',
         themeNavBkg: _COLOR + 'themeNavBkg',
+        // Ferrum
+        dark: _COLOR + 'dark',
+        darkLight: _COLOR + 'darkLight',
+        greyDark: _COLOR + 'greyDark',
+        greyMedium: _COLOR + 'greyMedium',
+        greyLight: _COLOR + 'greyLight',
+        gold: _COLOR + 'gold',
+        green: _COLOR + 'green',
+        red: _COLOR + 'red',
+        off: _COLOR + 'off',
+        white: _COLOR + 'white'
     }
     static Button = {
         btnPrimary: _BUTTON + 'btnPrimary',
@@ -51,13 +62,17 @@ export class Theme {
         disabledColor: _TEXT + 'disabledColor',
         linkColor: _TEXT + 'linkColor',
         infoColor: _TEXT + 'infoColor',
-        h1Size: _TEXT + 'h1Size',
-        h2Size: _TEXT + 'h2Size',
         h3Size: _TEXT + 'h3Size',
         h4Size: _TEXT + 'h4Size',
         pSize: _TEXT + 'pSize',
         numberDownColor: _TEXT + 'numberDown',
         numberUpColor: _TEXT + 'numberUp',
+        // Ferrum
+        h1Size: _TEXT + 'h1Size',
+        h2Size: _TEXT + 'h2Size',
+        labelSize: _TEXT + 'labelSize',
+        smallLabel: _TEXT + 'smallLabel',
+        tinyLabel: _TEXT + 'tinyLabel'
     }
     static Page = {
         titleColor: _PAGE + 'titleColor',

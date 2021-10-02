@@ -9,7 +9,8 @@
   },
   "scripts": {
     "build": "tsc",
-    "build-and-cp": "tsc && cp -r ./dist ../unifyre-native-wallet-components/node_modules/unifyre-react-helper/",
+    "build-and-cp": "tsc && cp -R ./dist ../unifyre-native-wallet-components/node_modules/unifyre-react-helper/",
+    "build-and-cp2": "tsc && cp -R ./dist ../unifyre-native-components/node_modules/unifyre-react-helper/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

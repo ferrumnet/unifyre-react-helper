@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.LocaleManager = exports.addCommas = void 0;
 function addCommas(num, comma) {
     const parts = [];
     let i = num.length;

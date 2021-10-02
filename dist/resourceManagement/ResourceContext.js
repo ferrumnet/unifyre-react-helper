@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.ResourceContext = exports.ResourceConstantProvider = void 0;
 const react_1 = require("react");
 const types_1 = require("../theme/types");
 class ResourceConstantProvider extends types_1.ConstantProvider {
