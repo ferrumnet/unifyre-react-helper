@@ -26,11 +26,11 @@
     "@fluent/bundle": "^0.15.1"
   },
   "peerDependencies": {
-    "react": "@16.9.0"
+    "react": "@16.9.0",
+    "@types/react": "~16.9.0"
   },
   "devDependencies": {
     "@types/jest": "^25.2.3",
-    "@types/react": "~16.9.0",
     "jest": "^26.0.1",
     "ts-jest": "^26.0.0",
     "tslint": "^5.0.0",
